@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(/Images/Fondo2.jpg);
+}
+
+*{
+ color: white;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.689);
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+}
+
+.titulo {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.button {
+    font-weight: bold;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgba(3, 14, 219, 0.445);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0179fa;
+}
+
+.subtitulo {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.texto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.mensaje {
+    font-weight: bold;
+    font-size: 30px;
+}
