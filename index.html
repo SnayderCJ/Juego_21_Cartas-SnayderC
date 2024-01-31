@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del 21</title>
+    <link rel="stylesheet" href="/Css/Estilos.css">
+    <script src="/Js/logica.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="titulo">Juego del 21</h1>
+
+        <div class="buttons">
+            <button id="empezar" class="button">Empezar</button>
+            <button id="pedirCarta" class="button">Pedir Carta</button>
+            <button id="finalizar" class="button">Finalizar</button>
+        </div>
+
+        <div class="jugador">
+            <h2 class="subtitulo">Jugador</h2>
+            <div class="texto">
+                <p id="cartasJugador">  </p>
+                <p id="puntosJugador"> </p>
+            </div>
+        </div>
+
+        <div class="maquina">
+            <h2 class="subtitulo">Máquina</h2>
+            <div class="texto">
+                <p id="cartasPc"></p>
+                <p id="puntosPc"></p>
+            </div>
+        </div>
+
+        <div class="ganador">
+            <p id="resultado" class="mensaje">Ganador</p>
+        </div>
+    </div>
+</body>
+
+</html>
